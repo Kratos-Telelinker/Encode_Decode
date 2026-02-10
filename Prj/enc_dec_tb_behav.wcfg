@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="enc_dec_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="enc_dec_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0 ps"></ZoomStartTime>
+      <ZoomEndTime time="13 ps"></ZoomEndTime>
+      <Cursor1Time time="0 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="259"></NameColumnWidth>
+      <ValueColumnWidth column_width="135"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/enc_dec_tb/system_clk" type="logic">
+      <obj_property name="ElementShortName">system_clk</obj_property>
+      <obj_property name="ObjectShortName">system_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/enc_dec_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/enc_dec_tb/initialize" type="logic">
+      <obj_property name="ElementShortName">initialize</obj_property>
+      <obj_property name="ObjectShortName">initialize</obj_property>
+   </wvobject>
+   <wvobject fp_name="/enc_dec_tb/encode_enable" type="logic">
+      <obj_property name="ElementShortName">encode_enable</obj_property>
+      <obj_property name="ObjectShortName">encode_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/enc_dec_tb/counter" type="array">
+      <obj_property name="ElementShortName">counter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/enc_dec_tb/data_valid_in" type="logic">
+      <obj_property name="ElementShortName">data_valid_in</obj_property>
+      <obj_property name="ObjectShortName">data_valid_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/enc_dec_tb/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/enc_dec_tb/data_valid_out" type="logic">
+      <obj_property name="ElementShortName">data_valid_out</obj_property>
+      <obj_property name="ObjectShortName">data_valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/enc_dec_tb/encoded_data" type="array">
+      <obj_property name="ElementShortName">encoded_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">encoded_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/enc_dec_tb/decoded_data" type="array">
+      <obj_property name="ElementShortName">decoded_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">decoded_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/enc_dec_tb/decoder/sel_lfsr" type="other">
+      <obj_property name="ElementShortName">sel_lfsr</obj_property>
+      <obj_property name="ObjectShortName">sel_lfsr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/enc_dec_tb/decoder/lfsr_int_en" type="other">
+      <obj_property name="ElementShortName">lfsr_int_en</obj_property>
+      <obj_property name="ObjectShortName">lfsr_int_en</obj_property>
+   </wvobject>
+</wave_config>
